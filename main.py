@@ -11,7 +11,7 @@ selected_columns = dataFrame[['track_name', 'artist(s)_name']][:10]
 # print(selected_columns)
 
 # 2. ინდექსირება კონკრეტული სვეტის მიმართ
-#df.set_index('track_name', inplace=False)
+df.set_index('track_name', inplace=False)
 # print(df)
 
 # 3. ფილტრაცია 2 პარამეტრით
